@@ -1,0 +1,7 @@
+com\mycompany\muahang\resources\CartItem.class
+com\mycompany\muahang\resources\Cart.class
+com\mycompany\muahang\JakartaRestConfiguration.class
+com\mycompany\muahang\resources\CartServlet.class
+com\mycompany\muahang\resources\Product.class
+com\mycompany\muahang\resources\CartActionServlet.class
+com\mycompany\muahang\resources\JakartaEE8Resource.class

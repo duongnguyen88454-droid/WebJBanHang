@@ -1,0 +1,89 @@
+/* Tổng quan trang */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 85%;
+    margin: 20px;
+    color: #000000;
+}
+
+/* Tiêu đề */
+h1 {
+    color: #008080; /* Teal */
+    font-size: 140%;
+    margin-bottom: 15px;
+}
+
+h3 {
+    font-size: 100%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+/* Định dạng bảng */
+table {
+    border-collapse: collapse;
+    border: 1px solid #000000;
+    margin-bottom: 15px;
+}
+
+th, td {
+    border: 1px solid #000000;
+    padding: 5px 8px;
+    text-align: left;
+    vertical-align: middle;
+}
+
+th {
+    font-weight: bold;
+}
+
+/* Định dạng form chứa ô nhập và nút Update */
+td form {
+    margin: 0;
+    padding: 0;
+    white-space: nowrap; /* Bắt buộc input và nút Update nằm cùng 1 hàng */
+}
+
+/* BẮT BUỘC THU NHỎ Ô INPUT NUMBER */
+input[type="number"] {
+    width: 30px !important;
+    max-width: 30px !important;
+    box-sizing: content-box;
+    padding: 2px;
+    text-align: center;
+    display: inline-block !important;
+}
+
+/* Ẩn bớt nút tăng giảm mặc định quá to trên Firefox/Chrome nếu cần */
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    margin: 0;
+}
+
+/* Định dạng nút bấm */
+input[type="submit"] {
+    background-color: #f0f0f0;
+    border: 1px solid #707070;
+    border-radius: 2px;
+    padding: 2px 6px;
+    font-size: 85%;
+    cursor: pointer;
+    display: inline-block !important;
+}
+
+/* Đảm bảo cột Description luôn đủ rộng để không nhảy chữ */
+tr td:nth-child(1), tr td:nth-child(2) {
+    min-width: 150px;
+}
+
+/* Bảng trang CD List: Cột Description rộng hơn hẳn */
+body > table tr td:first-child {
+    width: 320px;
+}
+
+/* Text hướng dẫn */
+p {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    font-size: 90%;
+}
